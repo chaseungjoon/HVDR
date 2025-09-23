@@ -2,7 +2,6 @@ import torch.nn as nn
 
 class DemoHRM(nn.Module):
     """Simplified demo version of HRM for demonstration"""
-
     def __init__(self, hidden_size=512, num_layers=6, vocab_size=1000):
         super().__init__()
         self.hidden_size = hidden_size
